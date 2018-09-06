@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+/* .active {
+  box-sizing: content-box;
+  border-bottom: 3px solid white;
+} */
