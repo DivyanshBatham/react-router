@@ -11,7 +11,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           {/* To access props with Roter Informations in Navbar, we need to supercharge the Navbar component with Higher Order Component */}
-          {/* Higher Order Component wraps another component and gives it something extra */}
+          {/* Higher Order Component wraps another component and gives it something extra */} 
           <Navbar />
           {/* props for Router Information is only sent to the below components, which are declared using Route */}
           <Route exact path='/' component={Home}/>
